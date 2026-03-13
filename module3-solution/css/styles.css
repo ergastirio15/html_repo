@@ -1,0 +1,55 @@
+.navbar_container {
+    background-color: #d1d4d8;
+    height: 60px;
+}
+.navbar_container .dropdown {
+    position: static;
+}
+.navbar_container .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+}
+.dropdown-menu-light {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    background-color: #acb1b7; 
+}
+.dropdown-menu-light .dropdown-item {
+    color: #474242;
+    text-align: center;
+}
+.dropdown-menu-light .dropdown-item:hover {
+    background-color: #9bafc4;
+}
+.btn-secondary {
+    --bs-btn-bg: #e5edf5;
+    --bs-btn-border-color: #e5edf5;
+    --bs-btn-hover-bg: #d4e0eb;
+    --bs-btn-hover-border-color: #d4e0eb;
+    --bs-btn-active-bg: #c3d1e7;  
+    --bs-btn-active-border-color: #c3d1e7;
+    --bs-btn-disabled-bg: #e5edf5;  
+    --bs-btn-disabled-border-color: #e5edf5;
+    color: #595e63;
+}
+.text_area {
+    color: #5a5c5f; 
+    text-align: center;  
+}
+p {
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma;
+    font-style: italic;
+}
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(217, 236, 246);
+}   
